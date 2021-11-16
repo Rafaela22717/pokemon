@@ -1,0 +1,30 @@
+.landingPage {
+
+background-image: url("https://c4.wallpaperflare.com/wallpaper/843/913/316/gryffindor-pokeball-the-wallpaper-preview.jpg");
+background-size: cover; 
+object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+}
+.botonIngresar {
+background-color: rgb(19, 7, 3);
+border-radius: 2rem solid white
+;
+color: gold;
+width: 70px;
+height: 70px;
+transition: transform .4s;
+
+
+}
+.botonIngresar:hover {
+    transform: scale(1.1);
+    color: #ff5e00;
+}
+
+
+/* http://www.solofondos.com/wp-content/uploads/2016/06/pokemon-poke-balls-3d-1920x1200-wallpaper_www.wallpapermay.com_7.jpg */

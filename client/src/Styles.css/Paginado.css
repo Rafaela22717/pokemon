@@ -1,0 +1,7 @@
+ul.paginado li{
+    font-weight: bold;
+    text-decoration: underline;
+     display:inline;
+     padding-left:5px;
+     padding-right:5px;
+}

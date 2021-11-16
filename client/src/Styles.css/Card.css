@@ -1,0 +1,33 @@
+
+.cardPoke{
+border:groove black 10px;
+max-height: max-content;
+margin: 10px;
+text-decoration:none;
+
+}
+
+
+.parteCard {
+  
+  display: flex;
+  justify-content: space-around; 
+  flex-wrap: wrap;
+  margin: 10px;
+  
+}
+.card{
+width: 22%;
+
+}
+.elem{
+  display: inline-block;
+  margin: 6px; 
+  
+}
+.fuente{
+text-transform: uppercase;
+color:rgb(8, 7, 7);
+font-family:"Comic Sans MS", "Comic Sans", cursive; 
+}
+

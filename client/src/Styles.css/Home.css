@@ -1,0 +1,29 @@
+.fondoHome{
+    background-image: url("https://www.xtrafondos.com/descargar.php?id=3906&resolucion=1280x720");
+    background-size:cover;
+     background-repeat: no-repeat;
+    
+    
+    background-position: center;
+}
+.filtrosBotones {
+    margin: auto;
+    color: black;
+    font-weight: bolder;
+    border-radius: 4px solid black;
+    box-sizing: border-box;
+}
+.marginBoton {
+    margin-bottom: 0;
+}
+.titulo {
+    
+        color: #6c2eb9;
+        font-weight: normal;
+        font-size: 40px;
+        font-family: Arial;
+        text-transform: uppercase;
+         
+}
+
+   
