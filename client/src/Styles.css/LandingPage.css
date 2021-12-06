@@ -1,6 +1,8 @@
 .landingPage {
 
-background-image: url("https://c4.wallpaperflare.com/wallpaper/843/913/316/gryffindor-pokeball-the-wallpaper-preview.jpg");
+background-image: url("https://besthqwallpapers.com/Uploads/14-9-2016/8461/thumb2-pokemon-fireball-ball-for-pokemon.jpg ");
+/* https://c4.wallpaperflare.com/wallpaper/843/913/316/gryffindor-pokeball-the-wallpaper-preview.jpg */
+
 background-size: cover; 
 object-fit: cover;
     width: 100vw;
@@ -11,20 +13,28 @@ object-fit: cover;
     z-index: -1;
 }
 .botonIngresar {
-background-color: rgb(19, 7, 3);
+/* background-color: rgb(19, 7, 3);
 border-radius: 2rem solid white
 ;
 color: gold;
 width: 70px;
 height: 70px;
-transition: transform .4s;
-
-
+transition: transform .4s; */
+-webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #d9ff00;
+  background-color:  #c97d4b;
 }
 .botonIngresar:hover {
-    transform: scale(1.1);
-    color: #ff5e00;
+    transform: scale(1.2);
+    color: #d9ff00;
+}
+
+.tit{
+    font-size:50px;
+    font-family: Times, serif;
+    color:#c97d4b;
 }
 
 
-/* http://www.solofondos.com/wp-content/uploads/2016/06/pokemon-poke-balls-3d-1920x1200-wallpaper_www.wallpapermay.com_7.jpg */
