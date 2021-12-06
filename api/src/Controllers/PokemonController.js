@@ -148,6 +148,9 @@ const addPokemon = async (req, res) => {
 
 
 
+
+
+
 module.exports = {
   getAllPokemons,
   addPokemon,
