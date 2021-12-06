@@ -8,9 +8,9 @@ export default function LandingPage() {
     return(
         <div className="landingPage">
         <div>
-            <h1>WELCOME</h1>
+            <h1 class="tit" >WELCOME</h1>
             <Link to = "/home">
-                <button className="botonIngresar">Ingresar</button>
+                <button className="botonIngresar">Get into</button>
                 </Link>
         </div>
         </div>
