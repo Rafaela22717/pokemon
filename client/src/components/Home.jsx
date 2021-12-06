@@ -68,14 +68,14 @@ export default function Home() {
     <div className="fondoHome" >
 
     <div>
-      <Link to="/pokemon">Crear Pokemon</Link>
-      <h1 className="titulo">POKEMON TU API</h1>
-      <button onClick={(e) => { handleClick(e)  }} >
-        Volver a cargar los pokemons
+      <Link className="link" to="/pokemon">Create Pokemon</Link>
+      <h1 className="titulo">Pokemon your api</h1>
+      <button  className="buttonOne"onClick={(e) => { handleClick(e)  }} >
+        Load pokemons
       </button>
 
       <div>
-        <select onChange={(e) => handleFilterCreated(e)}>
+        <select className="selectOne" onChange={(e) => handleFilterCreated(e)}>
           <option value="All">All Pokes</option>
           <option value="Created">My poke</option>
           <option value="Api">Api Pokes</option>
@@ -85,22 +85,23 @@ export default function Home() {
         <div className="filtrosBotones">
         <h5 className="marginBoton">By Order</h5>
         {/* //name */}
-        <select onChange={(e) => handleOrderSort(e)}>
-          <option value="asc">Ascendente</option>
-          <option value="desc">Descendente</option>
+        <select className="buttonDos" onChange={(e) => handleOrderSort(e)}>
+          <option value="asc">Upward</option>
+          <option value="desc">Falling</option>
         </select>
         </div>
         {/* por fuerza */}
         <div className="filtrosBotones">
         <h5 className="marginBoton">By force</h5>
-        <select onChange={(e) => handleForceSort(e)}>
-          <option value="asc">Ascendente</option>
-          <option value="desc">Descendente</option>
+        <select className="buttonTres" onChange={(e) => handleForceSort(e)}>
+          <option value="asc">Upward </option>
+          <option value="desc">Falling</option>
         </select>
           </div>
           <div className="filtrosBotones">
-        <select onChange={(e) => handleFilterType(e)}>
-          <option value="allTypes">All Types</option>
+          <h5 className="marginBoton">All Types</h5>
+        <select className="selectTypes" onChange={(e) => handleFilterType(e)}>
+          <option value="allTypes"></option>
           {types?.map((elem) => (
             <option key={elem.id} value={elem.name}>
               {elem.name}
