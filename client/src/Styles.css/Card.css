@@ -1,9 +1,13 @@
 
 .cardPoke{
-border:groove black 10px;
+border:groove orange 6px;
+color: peru;
 max-height: max-content;
-margin: 10px;
-text-decoration:none;
+margin: 50px;
+background-color:grey;
+height: 270px;
+width: 230px;
+font-family:'Times New Roman', Times, serif;
 
 }
 
@@ -13,16 +17,15 @@ text-decoration:none;
   display: flex;
   justify-content: space-around; 
   flex-wrap: wrap;
-  margin: 10px;
+  margin: 15px;
   
 }
-.card{
-width: 22%;
 
-}
+
 .elem{
   display: inline-block;
-  margin: 6px; 
+  margin: 10px; 
+  color:rgb(17, 15, 15)
   
 }
 .fuente{
@@ -30,4 +33,6 @@ text-transform: uppercase;
 color:rgb(8, 7, 7);
 font-family:"Comic Sans MS", "Comic Sans", cursive; 
 }
-
+.img{
+  padding-top: 22px;
+}
