@@ -1,7 +1,12 @@
-.inputSearch {
-    margin-top:12px; 
-}
 
-.marginR {
+
+
+.marginR, .marginB {
 margin-right: 6px;
+-webkit-border-radius: 28 solid orange;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #030303;
+  background-color: white;
+border: solid 3px orange;
 }
