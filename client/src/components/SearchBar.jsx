@@ -24,7 +24,7 @@ function handleSubmit(e) {
 return (
         <div className= "inputSearch" >
          <input   className= "marginR" type = "text" placeholder = "Pokemon..." onChange = {e => handleInputChange(e)}/>
-         <button type = "submit"  onClick={(e)=>handleSubmit(e) }>Buscar</button>
+         <button className="marginB" type = "submit"  onClick={(e)=>handleSubmit(e) }>Search</button>
       </div>
 );
 };
