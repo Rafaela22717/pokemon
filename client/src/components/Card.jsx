@@ -6,17 +6,18 @@ function Card(props) {
     return(
         
         <div className="cardPoke">
-                <h1 className="pokeN fuente">{props.name}</h1>
-            <div >
-                <img src={props.image} alt="Poke" width='150px' height='150px'/>
+                <h1 className="pokeN">{props.name}</h1>
+            <div className="card" >
+                <img src={props.image} alt="Poke" width='90px' height='90px'/>
             </div>
               
-                    <h3 className="fuente">Types</h3>
+                 <div className="img">
                     {props.type?.map(i => (
                     
-                        <h4 className="elem fuente" >{i.name}</h4>
-                        
+                        <h4 className="elem" >{i.name}</h4>//types
+                      
                         ))}
+                  </div>
                 
         </div>
           
